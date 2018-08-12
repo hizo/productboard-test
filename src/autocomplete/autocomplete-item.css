@@ -1,0 +1,13 @@
+.autocomplete-item {
+  padding: 0.5em 1em;
+}
+
+.autocomplete-item:hover,
+.autocomplete-item--active {
+  background: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.unmatched {
+  font-weight: bold;
+}

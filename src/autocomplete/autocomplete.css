@@ -1,0 +1,21 @@
+.autocomplete {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 20em;
+  border: 1px solid grey;
+}
+
+.autocomplete__label {
+  display: block;
+  text-align: right;
+  font-size: 0.7em;
+  padding: 0.5em 1em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.autocomplete__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
